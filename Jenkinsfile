@@ -3,7 +3,7 @@ pipeline {
 agent any
 
   stages {
-    stage {
+    stage (test-stage) {
       steps {
        sh "hello this is main branch"
       }
